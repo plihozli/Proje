@@ -67,6 +67,10 @@ else
 	break;
 		case  5:
 		case5(i1,y1,sayac[1]);
+	dosya=fopen("fiyatlandirma.txt","w");
+	printf("\ntc nizi giriniz");
+	scanf("%d",&tc);
+		break;
 		default:
 			printf("!!!!Hatali secim tekrar seciniz\n");
 			goto tekrar;
